@@ -1,0 +1,9 @@
+# MAF ================================================================
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+RewriteRule . index.php
+# END OF MAF ================================================================
+# source link: http://www.yiiframework.com/wiki/755/how-to-hide-frontend-web-in-url-addresses-on-apache/
